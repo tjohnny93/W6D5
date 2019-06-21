@@ -1,0 +1,11 @@
+{
+    "name": "widgets",
+    "description": "W6D5 widgets project",
+    "authors": "Tyler & Johnny",
+    "version": "1.0.0",
+    "main": "widgets.jsx",
+    "dependencies": {},
+    "scripts": {
+      "start": "webpack --watch --mode=development"
+    }
+  }
