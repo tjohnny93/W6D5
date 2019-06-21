@@ -1,3 +1,8 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Clock from './clock.jsx'
+
 document.addEventListener('DOMContentLoaded', () => {
-  console.log ('Hey, its workinnn');
+  const root = document.getElementById('root');
+  ReactDOM.render(<Clock />, root);
 });

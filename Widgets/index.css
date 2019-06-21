@@ -1,0 +1,45 @@
+.web-title {
+  font-family: anton;
+  font-size: 45px;
+  text-align: center;
+  padding: 30px;
+}
+
+.clock {
+  font-family: anton;
+  display: flex;
+  border: 5px solid teal;
+  border-radius: 10px;
+  height: 300px;
+  width: 550px;
+  margin: 20px;
+  background-color: lemonchiffon;
+  font-size: 45px;
+  flex-wrap: wrap;
+}
+
+.clock-title {
+  color: orangered;
+  border: 1px solid blue;
+  
+}
+
+.date-title {
+  color: orangered;
+  border: 1px solid red;
+  align-items: space-between;
+  
+}
+
+.actual-time {
+  color: lightseagreen;
+  border: 1px solid blue;
+  
+}
+
+.actual-date {
+   color: lightseagreen;
+  border: 1px solid red;
+  align-items: space-between;
+
+}
