@@ -62,14 +62,14 @@ class Clock extends React.Component {
   render () {
     return (
       <div className='clock'>
-        <p className='clock-container'>
-          <span className='clock-title'>Time:</span>
-          <span className='actual-time'>{this.state.date.getHours()}:{this.state.date.getMinutes()}:{this.state.date.getSeconds()} PDT </span>
-        </p>
-        <p className='date-container'>
-          <span className='date-title'>Date:</span>
-          <span className='actual-date'>{this.day()}, {this.month()}, {this.state.date.getFullYear()}</span>
-        </p>
+        <div className='clock-container'>
+          <span>Time:</span>
+          <span>{this.state.date.getHours()}:{this.state.date.getMinutes()}:{this.state.date.getSeconds()} PDT </span>
+        </div>
+        <div className='date-container'>
+          <span>Date:</span>
+          <span>{this.day()}, {this.month()}, {this.state.date.getFullYear()}</span>
+        </div>
       </div>
       
     );
